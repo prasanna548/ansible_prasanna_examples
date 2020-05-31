@@ -1,0 +1,13 @@
+- hosts: localhost
+  vars:
+    variable_to_be_replaced: 'birthday party'
+    inline_variable: 'aditya and prasanna'
+  tasks:
+    - name: Creates directory
+      file:
+        path: prasanna
+        state: directory
+    - name: Ansible Template Example
+      template:
+        src: hello_world.j2
+        dest: prasanna/hello_world.txt

@@ -1,0 +1,8 @@
+[primaryhost]
+
+172.31.4.37
+[group]
+172.31.34.131
+172.31.34.131 ansible_user=ans_host1
+172.31.4.37 ansible_user=ans_host2
+
