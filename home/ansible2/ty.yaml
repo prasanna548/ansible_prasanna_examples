@@ -1,9 +1,0 @@
----
-
-- name: install redis on RHEL based distros
-  yum:
-    name: redis
-    state: present
-    update_cache: true
-  become: true
-  

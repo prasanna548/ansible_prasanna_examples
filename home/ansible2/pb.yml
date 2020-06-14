@@ -1,5 +1,0 @@
-- hosts: all
-  tasks:
-    - name: Printing the environment​ variable in Ansible
-      debug:
-        msg: "{{ lookup('env','HOME') }}"

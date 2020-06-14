@@ -1,7 +1,0 @@
-- hosts: all
-  gather_facts: true
-  tasks:
-    - name: Remote server ansible variables
-      debug:
-        msg: "{{ ansible_env.HOME }}"
-
